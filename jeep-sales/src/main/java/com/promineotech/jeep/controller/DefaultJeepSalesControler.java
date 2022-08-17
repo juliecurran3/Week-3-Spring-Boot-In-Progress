@@ -9,7 +9,7 @@ import com.promineotech.jeep.service.JeepSalesService;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@Slf4j  
+@Slf4j 
 public class DefaultJeepSalesControler implements JeepSalesController {
   
   @Autowired

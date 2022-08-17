@@ -32,7 +32,7 @@ public class DefaultJeepSalesDao implements JeepSalesDao {
         + "WHERE model_id = :model_id AND trim_level = :trim_level";
     // Formatter:on
     Map<String, Object> params = new HashMap<>();
-    params.put("Model_id", model.toString());
+    params.put("model_id", model.toString());
     params.put("trim_level", trim);
 
 
